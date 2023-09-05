@@ -1,0 +1,420 @@
+body
+{
+    background-color: rgb(24, 21, 21);
+}
+.logo_div
+{
+    display: flex;
+    gap: 10px;
+}
+
+.navTopBar
+{
+    display: flex;
+    gap: 40px;
+    padding-left: 45%;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+
+.navTopElements
+{
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.eventsExamplePhotos
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10%;
+}
+
+#heading3
+{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+.image1
+{
+    border: 2px solid blueviolet;
+}
+
+.image2
+{
+    border: 2px solid blue;
+}
+
+.desc1
+{
+    color: white;
+    position: absolute;
+    left: 370px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.desc2
+{
+    color: white;
+    position: absolute;
+    left: 930px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.roundedBar
+{
+    color: white;
+    padding-top: 3px;
+    display: flex;               
+    justify-content: space-evenly;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+.allEvents
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 120px;
+}
+
+.allEvents2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 120px;
+}
+
+.allEvents3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 120px;
+}
+
+.gridItems
+{
+    margin-top: 140px;
+}
+
+.title1
+{
+    color: rgb(77, 135, 183);
+    position: absolute;
+    padding-top: 5px;
+    left: 160px;
+    top: 910px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.title2
+{
+    color: rgb(77, 135, 183);
+    position: absolute;
+    padding-top: 5px;
+    left: 660px;
+    top: 910px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.title3
+{
+    color: rgb(77, 135, 183);
+    position: absolute;
+    padding-top: 5px;
+    left: 1100px;
+    top: 910px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.titled3
+{
+    color: rgb(77, 135, 183);
+    position: absolute;
+    padding-top: 5px;
+    left: 640px;
+    top: 910px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.title4
+{
+    color: rgb(77, 135, 183);
+    position: absolute;
+    padding-top: 5px;
+    left: 180px;
+    top: 1360px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.title5
+{
+    color: rgb(77, 135, 183);
+    position: absolute;
+    padding-top: 5px;
+    left: 650px;
+    top: 1360px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.title6
+{
+    color: rgb(77, 135, 183);
+    position: absolute;
+    padding-top: 5px;
+    left: 1100px;
+    top: 1360px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.title7
+{
+    color: rgb(77, 135, 183);
+    position: absolute;
+    padding-top: 5px;
+    left: 200px;
+    top: 1800px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.secondTitle7
+{
+    color: rgb(77, 135, 183);
+    position: absolute;
+    padding-top: 5px;
+    left: 200px;
+    top: 910px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.secondTitle8
+{
+    color: rgb(77, 135, 183);
+    position: absolute;
+    padding-top: 5px;
+    left: 1100px;
+    top: 910px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.title8
+{
+    color: rgb(77, 135, 183);
+    position: absolute;
+    padding-top: 5px;
+    left: 650px;
+    top: 1800px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.info1
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 160px;
+    top: 1270px;  
+}
+
+.info2
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 660px;
+    top: 1270px;
+
+}
+
+.info3
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 1100px;
+    top: 1270px; 
+}
+
+.infor3
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 640px;
+    top: 1270px;
+}
+
+.info4
+{    
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 160px;
+    top: 1720px;
+    
+}
+
+.infor4
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 140px;
+    top: 1720px;
+}
+
+.info5
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 660px;
+    top: 1720px;
+}
+
+.infor5
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 640px;
+    top: 1720px;
+}
+
+.info6
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 1100px;
+    top: 1720px;
+}
+
+.info7
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 160px;
+    top: 2160px;
+}
+
+.info8
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 660px;
+    top: 2160px;
+}
+
+.information1
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 160px;
+    top: 1270px;
+}
+
+.information2
+{
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+    left: 1100px;
+    top: 1270px; 
+}
+
+.endPart
+{
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+}
+
+.endPart2
+{
+    padding-top: 20px;
+    display: flex;
+    gap: 250px;
+}
+
+.end
+{
+    margin-left: 50px;
+    padding-top: 20px;
+    display: flex;
+    gap: 250px;
+}
+
+.end2
+{
+    margin-left: 680px;
+}
+
+.endInfo
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 2px;
+}
+
+.finalEnd
+{
+    display: flex;
+    gap: 270px;
+}
+
